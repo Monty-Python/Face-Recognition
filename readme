@@ -7,6 +7,6 @@ remove database/trained_model.yml
 git clone https://github.com/opencv/opencv.git
 rename opencv to opencv-2.4.9
 
-python v5.py store {name}
-python v5.py train
-python v5.py recog
+python face_recog.py store {name}
+python face_recog.py train
+python face_recog.py recog
