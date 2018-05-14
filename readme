@@ -2,6 +2,9 @@ delete all folders inside database/
 remove database/labels.mgp
 remove database/trained_model.yml
 
+git clone https://github.com/opencv/opencv.git
+rename opencv to opencv-2.4.9
+
 python v5.py store {name}
 python v5.py train
 python v5.py recog
